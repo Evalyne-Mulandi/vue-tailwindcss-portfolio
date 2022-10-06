@@ -1,5 +1,5 @@
 <template>
-  <main class=" relative">
+  <main class=" relative max-w-full">
     <Aside/>
     <router-view/>
   </main>

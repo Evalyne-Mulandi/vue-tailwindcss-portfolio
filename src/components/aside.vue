@@ -35,7 +35,7 @@ style=" fill:#000000;">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.75
 </div>
 <div class=""></div>
 
-<button class=" flex  justify-center items-center bg-blue-800 text-white rounded-md px-10 py-2 gap-y-3 font-mono">Hire me</button>
+<button class=" flex  justify-center items-center bg-blue-800 text-white rounded-md px-10 py-2 gap-y-3  text-lg font-mono">Hire me</button>
 
 
  </div>

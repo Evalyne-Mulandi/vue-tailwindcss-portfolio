@@ -9,9 +9,9 @@
     <nav class="flex flex-row px-5 justify-center md:justify-end font-mono items-center mx-auto max-w-full gap-x-3 md:fixed top-0 right-40 left-96 text-white  bg-blue-800 rounded-sm h-1">
     <router-link class=" text-lg text-white font-medium active:text-white" to="/">Home</router-link>
     <router-link class=" text-lg text-white font-medium active:text-white" to="/about">About</router-link>
-    <router-link class=" text-lg text-white font-medium active:text-white" to="/">contact</router-link>
+    <router-link class=" text-lg text-white font-medium active:text-white" to="/contact">contact</router-link>
     
-    <div class=" text-white font-mono text-xl hidden  md:flex pl-32">+254757733263</div>
+    <div class=" text-white font-mono text-xl hidden  md:flex pl-32 justify-center items-center gap-x-2">  <span class=""> <img src="../assets/btn.png" class=" h-7 w-7 rounded-full bg-white p-1" alt=""></span> +254757733263</div>
   </nav>
     <img src="../assets/carousel-2.jpg" alt="" class=" h-full w-full">
   </div>
