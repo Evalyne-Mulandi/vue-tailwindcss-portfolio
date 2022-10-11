@@ -1,5 +1,5 @@
 <template>
-  <main class=" relative max-w-full">
+  <main class=" relative max-w-full bg-slate-300 dark:bg-slate-900 ">
     <Aside/>
     <router-view/>
   </main>

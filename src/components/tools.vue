@@ -1,9 +1,9 @@
 <template>
   <!-- vue -->
-   <main class=" w-full  bg-slate-100 flex-col mx-auto justify-center items-center flex"> 
-  <div class="   flex flex-row gap-x-24 m-1 p-3 gap-y-24">
+   <main class=" w-full  bg-slate-100  dark:bg-slate-900 flex-col mx-auto justify-center items-center md:flex hidden p-1"> 
+  <div class="   flex md:flex-row flex-col flex-wrap justify-center items-center gap-x-24 m-1 p-3 gap-y-24">
 
-   <div class="hover:ring-2  ring-slate-300 p-2 rounded-lg  border border-slate-400  hover:bg-slate-300">
+   <div class=" hover:ring-2  ring-slate-300 p-2 rounded-lg  border border-slate-400  hover:bg-slate-100">
     <svg
          class=""
           xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
         </svg>
    </div>
         <!-- html -->
-        <div class=" hover:ring-2  ring-slate-300 p-2 rounded-lg  border border-slate-400  hover:bg-slate-300">
+        <div class=" hover:ring-2  ring-slate-300 p-2 rounded-lg  border border-slate-400  hover:bg-slate-100">
             <svg
           class=" "
           xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@
           ></path>
         </svg>
    </div>
-   <div class=" hover:ring-2  ring-slate-300 p-2 rounded-lg mt-4  border border-slate-400  hover:bg-slate-300">
+   <div class=" hover:ring-2  ring-slate-300 p-2 rounded-lg mt-4  border border-slate-400  hover:bg-slate-100">
 
 <svg
       class="items-center justify-center flex-1 mx-auto mb-20 md:mb-0"
@@ -90,7 +90,7 @@
 
         <!-- css -->
          <div class=" flex flex-row gap-x-24 gap-y-24">
-<div class=" hover:ring-2  ring-slate-300 p-2 rounded-lg  border border-slate-400  hover:bg-slate-300">
+<div class=" hover:ring-2  ring-slate-300 p-2 rounded-lg  border border-slate-400  hover:bg-slate-100">
 
     <svg
           class=" "
@@ -169,17 +169,16 @@
         
          </div>
 
-    <Footer/>
+     
 </main>
          
  
 </template>
 
 <script>
-import Footer from './footer.vue';
+ 
 export default {
-    name: "MyTools",
-    components: { Footer }
+    
 };
 </script>
 
