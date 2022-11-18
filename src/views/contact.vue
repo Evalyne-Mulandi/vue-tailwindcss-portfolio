@@ -23,7 +23,7 @@
    </nav>
 
 
-   <div class="flex flex-row px-5 justify-center md:justify-start md:ml-96 md:mr-40  dark:bg-slate-900 h-40 bg-blue-800 font-mono items-center mx-auto max-w-full md:top-14  relative gap-x-9 z-30 rounded-sm ">
+   <div class="flex flex-row px-5 justify-center md:justify-start md:ml-96 md:mr-40   h-40 bg-blue-800  dark:bg-slate-900 font-mono items-center mx-auto max-w-full md:top-14  relative gap-x-9 z-30 rounded-sm ">
      <span class=" text-white"></span>
      <span class=" text-white  dark:bg-slate-900 bg-blue-800 font-bold  text-2xl"> HOME/CONTACT</span>
      <span class=" text-white"> <button @click="this.toggleMode=!this.toggleMode" class=" relative sm:hidden   right-1 top-0 flex justify-end items-end"><span class=" p-3   text-white rounded-md   ring-white"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -37,21 +37,21 @@ style=" fill:#ffff;"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 
  <div class="     dark:bg-slate-900 relative  md:left-48 left-24 gap-y-3 flex mx-auto  flex-col flex-wrap md:flex-row justify-center  gap-x-36 items-center"> 
  <div class=" relative  top-24  right-24   flex flex-col justify-center items-center">
      <img src="https://img.icons8.com/ios/50/000000/order-delivered.png"  />
-  <h1 class=" text-2xl  font-bold  text-black  font-mono ">Address</h1>
-  <span class="   text-black font-mono" >Nairobi,kenya</span> 
+  <h1 class=" text-2xl  dark:text-gray-300 font-bold  text-black  font-mono ">Address</h1>
+  <span class="   dark:text-gray-300 text-black font-mono" >Nairobi,kenya</span> 
  </div>
  
  
  <div class=" relative  top-24  right-24   flex flex-col justify-center items-center">
      <img src="../assets/btn.png" class="  h-12 w-12 " alt="">
-  <h1 class=" text-2xl  font-bold  text-black  font-mono ">Phone</h1>
-  <span class="   text-black font-mono" >+254757733263</span> 
+  <h1 class=" text-2xl  font-bold  dark:text-gray-300 text-black  font-mono ">Phone</h1>
+  <span class="   dark:text-gray-300 text-black font-mono" >+254757733263</span> 
  </div>
  
  <div class=" relative  top-24  right-24   flex flex-col justify-center items-center">
      <img src="https://img.icons8.com/ios/50/000000/secured-letter--v1.png" class=" "/>
-  <h1 class=" text-2xl font-bold  text-black  font-mono ">Email</h1>
-  <span class="   text-black font-mono" >eva.nthenya.mulandi@gmail.com</span> 
+  <h1 class="   dark:text-gray-300 text-2xl font-bold  text-black  font-mono ">Email</h1>
+  <span class="  dark:text-gray-300  text-black font-mono" >eva.nthenya.mulandi@gmail.com</span> 
  </div>
  </div>
  <div class="relative md:ml-96  top-28 flex  flex-col max-w-3xl">

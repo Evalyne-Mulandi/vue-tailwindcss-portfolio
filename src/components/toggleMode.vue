@@ -6,7 +6,7 @@
       >
         <button
           id="theme-toggle"
-          class="text-gray-500 mr-5 dark:text-gray-400 h outline-none rounded-lg text-sm p-2.5"
+          class="text-gray-100 mr-5 dark:text-gray-100 h outline-none rounded-lg text-sm p-2.5"
         >
           <svg
             id="theme-toggle-light-icon"
