@@ -1,14 +1,13 @@
 <template>
   <aside class=" md:mt-1 md:w-1/5   md:left-1 top-1 md:ml-20 h-full  md:fixed md:min-h-screen md:flex mb-3 " aria-label="Sidebar">
   
-  <div class="  overflow-y-auto py-4 px-3  rounded  dark:bg-slate-900 bg-white">
+  <div class="  overflow-y-auto py-4 px-3  rounded  dark:bg-slate-900 bg-slate-300">
    <div class="flex justify-center items-center mx-auto flex-col gap-y-2">
-   <img src="@/assets/profile1.jpg" alt="" class="    mb-3 flex justify-center items-center rounded-full h-38 w-44  ring-4 ring-blue-800  dark:ring-white">
-  <h1 class="  text-blue-900   dark:text-gray-300 font-bold text-4xl  font-mono">Evalyne mulandi</h1>
+   <img src="@/assets/profile1.jpg" alt="" class="    mb-3 flex justify-center items-center rounded-full h-38 w-44  ring-4 ring-teal-500  dark:ring-white">
+  <h1 class="  text-teal-500   dark:text-gray-300 font-bold text-4xl  font-mono">Evalyne mulandi</h1>
   <p class="   dark:text-gray-300 pb-16 flex justify-center items-center">
-                       I am a professional,web developer,Graphic designer, 
-                       Research Writer/ Tutor with five years of experience hence you can rest assured that I will guarantee you quality, 
-                       top-notch and tailored work.
+                       I  major in Web developement, Mobile development ,Graphic design, 
+                       Research Writer and UI&UX design( mobile and web design)
                    </p>
 
      <div class="  gap-x-2   flex flex-row  justify-center items-center mx-auto pb-8">
@@ -20,7 +19,7 @@ viewBox="0 0 64 64"
 style=" fill:teal; "><path d="M32,10c12.131,0,22,9.869,22,22s-9.869,22-22,22s-22-9.869-22-22S19.869,10,32,10z M43.798,27.551	c1.055-0.762,1.971-1.712,2.695-2.794c-1.472,0.669-3.101,0.85-3.101,0.85s1.902-1.101,2.373-2.986	c-1.042,0.618-2.198,1.068-3.428,1.31c-0.985-1.049-2.387-1.705-3.94-1.705c-2.981,0-5.398,2.418-5.398,5.398	c0,0.423,0.14,1.229,0.14,1.229s-6.514,0.039-11.126-5.641c0,0-0.71,0.949-0.73,2.715c-0.034,2.993,2.4,4.492,2.4,4.492	s-1.224,0.033-2.445-0.675c0.109,4.636,4.33,5.36,4.33,5.36s-1.363,0.262-2.438,0.093c0.687,2.144,2.681,3.706,5.042,3.749	c-1.847,1.448-4.174,2.311-6.704,2.311c-0.435,0-0.865-0.025-1.288-0.076c1.253,1.357,5.226,2.425,8.275,2.425	c9.929,0,15.357-8.225,15.357-15.358C43.813,28.015,43.808,27.783,43.798,27.551z"></path></svg>
        </a>
   
-       <a href=" https://www.facebook.com/evah.mulash/"  class="    dark:rounded-full cursor-pointer"> 
+       <a href=" https://www.facebook.com/evah.charlse/"  class="    dark:rounded-full cursor-pointer"> 
 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 
 width="36" height="36"
@@ -36,7 +35,7 @@ viewBox="0 0 30 30"
 style=" fill:teal;">    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path></svg>
 </a>
 
-<a href=" https://www.instagram.com/__just__her___/"  class="   dark:rounded-full cursor-pointer"> 
+<a href=" https://www.instagram.com/pov_its_her/"  class="   dark:rounded-full cursor-pointer"> 
 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="36" height="36"
 viewBox="0 0 24 24"
@@ -46,7 +45,7 @@ style=" fill:teal; ">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 
 </div>
 <div class=""></div>
 
-<button class=" flex  justify-center items-center dark:bg-slate-700 bg-blue-800  dark:text-gray-300 text-white rounded-md px-10 py-2 gap-y-3  text-lg font-mono"> <a href="mailto:eva.nthenya.mulandi@gmail.com">Hire me</a></button>
+<button class=" flex  justify-center items-center dark:bg-slate-700 bg-teal-500  dark:text-gray-300 text-white rounded-md px-10 py-2 gap-y-3  text-lg font-mono"> <a href="mailto:eva.nthenya.mulandi@gmail.com">Hire me</a></button>
 
 
  </div>

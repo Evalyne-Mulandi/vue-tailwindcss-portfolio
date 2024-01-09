@@ -1,7 +1,7 @@
 <template>
-    <main class="  overflow-x-hidden overflow-y-auto min-h-screen  dark:bg-slate-900 bg-slate-300"> 
+    <main class="  overflow-x-hidden overflow-y-auto min-h-screen  dark:bg-slate-900 bg-slate-200"> 
      <div class=""> 
-   <nav class="  hidden sm:flex border-b-2 border-slate-50 flex-row px-5 justify-center md:justify-end font-mono items-center mx-auto max-w-full gap-x-3 md:absolute top-0 right-40 left-96 text-white  dark:bg-slate-900 bg-blue-800 rounded-sm h-1">
+   <nav class="  hidden sm:flex border-b-2 border-slate-50 flex-row px-5 justify-center md:justify-end font-mono items-center mx-auto max-w-full gap-x-3 md:absolute top-0 right-40 left-96 text-white  dark:bg-slate-900 bg-teal-500 rounded-sm h-1">
      <router-link class=" text-lg text-white font-medium active:text-white" to="/">Home</router-link>
      <router-link class=" text-lg text-white font-medium active:text-white" to="/about">About</router-link>
      <router-link class=" text-lg text-white font-medium active:text-white" to="/contact">contact</router-link>
@@ -13,7 +13,7 @@
  <!-- mobile view -->
   
 
- <nav v-show="toggleMode" class="  m-5 py-10 sm:hidden  flex  flex-col px-5 justify-center md:justify-end font-mono items-center mx-auto max-w-xs sm:max-w-full gap-x-3 md:absolute top-0 right-40 left-96 text-white  bg-blue-800 rounded-sm h-1">
+ <nav v-show="toggleMode" class="  m-5 py-10 sm:hidden  flex  flex-col px-5 justify-center md:justify-end font-mono items-center mx-auto max-w-xs sm:max-w-full gap-x-3 md:absolute top-0 right-40 left-96 text-white  bg-black rounded-sm h-1">
      <router-link class=" text-lg text-white font-medium active:text-white" to="/">Home</router-link>
      <router-link class=" text-lg text-white font-medium active:text-white" to="/about">About</router-link>
      <router-link class=" text-lg text-white font-medium active:text-white" to="/contact">contact</router-link>
@@ -23,9 +23,9 @@
    </nav>
 
 
-   <div class="flex flex-row px-5 justify-center md:justify-start md:ml-96 md:mr-40   h-40 bg-blue-800  dark:bg-slate-900 font-mono items-center mx-auto max-w-full md:top-14  relative gap-x-9 z-30 rounded-sm ">
+   <div class="flex flex-row px-5 justify-center md:justify-start md:ml-96 md:mr-40   h-40 bg-teal-500  dark:bg-slate-900 font-mono items-center mx-auto max-w-full md:top-14  relative gap-x-9 z-30 rounded-sm ">
      <span class=" text-white"></span>
-     <span class=" text-white  dark:bg-slate-900 bg-blue-800 font-bold  text-2xl"> HOME/CONTACT</span>
+     <span class=" text-white  dark:bg-slate-900 bg-teal-500 font-bold  text-2xl"> HOME/CONTACT</span>
      <span class=" text-white"> <button @click="this.toggleMode=!this.toggleMode" class=" relative sm:hidden   right-1 top-0 flex justify-end items-end"><span class=" p-3   text-white rounded-md   ring-white"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="24" height="24"
 viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ style=" fill:#ffff;"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 
  
   <textarea name="description" id="description" type="description" cols="10" rows="7" placeholder=" description" class="  rounded-md border-none "></textarea>
   <ErrorMessage name="description"   class=" text-red-600"/>
-  <button class="rounded-md  dark:bg-slate-800 bg-blue-800 hover:bg-black  py-4 flex-row flex justify-center  items-center w-36 mx-auto  text-white "><a href="mailto:eva.nthenya.mulandi@gmail.com">Send message</a></button>
+  <button class="rounded-md  dark:bg-slate-800 bg-teal-500 hover:bg-black  py-4 flex-row flex justify-center  items-center w-36 mx-auto  text-white "><a href="mailto:eva.nthenya.mulandi@gmail.com">Send message</a></button>
  </Form>
   
  <div class="   flex justify-center items-center max-h-screen">
@@ -79,7 +79,7 @@ style=" fill:#ffff;"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 
  
  
  
- <div class="   flex flex-row px-3 justify-center md:justify-start md:ml-96 md:mr-40  dark:bg-slate-800 bg-blue-800 font-mono items-center mx-auto max-w-full  relative gap-x-3 z-30  rounded-sm">
+ <div class="   flex flex-row px-3 justify-center md:justify-start md:ml-96 md:mr-40  dark:bg-slate-800 bg-teal-500 font-mono items-center mx-auto max-w-full  relative gap-x-3 z-30  rounded-sm">
   <Footer/>
 </div>
  
